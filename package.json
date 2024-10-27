@@ -1,0 +1,22 @@
+{
+  "name": "lottery",
+  "version": "1.0.0",
+  "description": "Lottery Solidity contract",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://jerald-devOfficial@github.com/jerald-devOfficial/solidity-lottery.git"
+  },
+  "author": "Jerald Baroro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jerald-devOfficial/solidity-lottery/issues"
+  },
+  "homepage": "https://github.com/jerald-devOfficial/solidity-lottery#readme",
+  "dependencies": {
+    "solc": "^0.4.17"
+  }
+}
