@@ -20,7 +20,6 @@ contract Lottery {
     }
 
     function pickWinner() public restricted {
-
         uint index = random() % players.length;
         players[index].transfer(this.balance);
         players = new address[](0);
@@ -29,5 +28,9 @@ contract Lottery {
     modifier restricted() {
         require(msg.sender == manager);
         _;
+    }
+
+    function getPlayers() public view returns (address[]) {
+        return players;
     }
 }
